@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_view_1">Demo Layout</string>
+    <string name="text_view_2">Demo Layout 2</string>
+    <string name="btn_next_2">Demo Layout 2</string>
+    <string name="text_c">C</string>
+    <string name="text_plus_multi">+/-</string>
+    <string name="text_percent">%</string>
+    <string name="text_divide">/</string>
+    <string name="text_multi">X</string>
+    <string name="text_decrease">-</string>
+    <string name="text_plus">+</string>
+    <string name="text_equal">=</string>
+    <string name="text_dot">.</string>
+</resources>
