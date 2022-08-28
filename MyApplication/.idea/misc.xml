@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/nguye/Desktop/T2009M/SEM4/Android/MyApplication/app/src/main/res/drawable/border_bottom.xml" value="0.2465" />
         <entry key="..\:/Users/nguye/Desktop/T2009M/SEM4/Android/MyApplication/app/src/main/res/drawable/border_top.xml" value="0.256" />
+        <entry key="..\:/Users/nguye/Desktop/T2009M/SEM4/Android/MyApplication/app/src/main/res/layout/activity_contact.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/nguye/Desktop/T2009M/SEM4/Android/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/nguye/Desktop/T2009M/SEM4/Android/MyApplication/app/src/main/res/layout/border.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nguye/Desktop/T2009M/SEM4/Android/MyApplication/app/src/main/res/layout/item_contact.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/nguye/Desktop/T2009M/SEM4/Android/MyApplication/app/src/main/res/layout/linear_layout.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/nguye/Desktop/T2009M/SEM4/Android/MyApplication/app/src/main/res/layout/list_view_layout.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/nguye/Desktop/T2009M/SEM4/Android/MyApplication/app/src/main/res/layout/list_view_layout_2.xml" value="0.35260416666666666" />

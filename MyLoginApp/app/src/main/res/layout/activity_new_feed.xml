@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+          <ImageView
+              android:id="@+id/avatar"
+              android:layout_width="84dp"
+              android:layout_height="58dp"
+              android:src="@drawable/avatar"
+              android:scaleType="fitXY" />
+
+          <RelativeLayout
+              android:id="@+id/post_account"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toRightOf="@id/avatar"
+              android:layout_marginLeft="15dp"
+              >
+
+              <TextView
+                  android:id="@+id/account_name"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Dang Jinner"
+                  android:textColor="@color/black"
+                  android:textSize="23sp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/account_name"
+                  android:layout_marginTop="10dp"
+                  android:text="10 minutes before"
+                  android:textSize="18sp" />
+          </RelativeLayout>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/avatar"
+              android:layout_marginTop="15dp"
+              android:text="Pokemon thu ve 2 ty do"
+              android:textColor="@color/black"
+              android:textSize="20sp" />
+      </RelativeLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+           android:orientation="vertical"
+           >
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:src="@drawable/thumbnail_pokemon_go"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Doanh thu Pokemon Go"
+               android:textSize="25dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="dantri.com.vn"
+               android:textSize="15dp"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:weightSum="99"
+           android:layout_marginTop="10dp"
+           android:padding="16dp"
+           android:background="@drawable/border_custom"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="LIKE"
+               android:textSize="25dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:layout_weight="33"
+               android:gravity="center"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="COMMENT"
+               android:textSize="25dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:layout_weight="33"
+               android:gravity="center"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="SHARE"
+               android:textSize="25dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:layout_weight="33"
+               android:gravity="center"
+               />
+       </LinearLayout>
+   </LinearLayout>
+</LinearLayout>
